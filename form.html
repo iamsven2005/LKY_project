@@ -1,7 +1,8 @@
-<html lang="en"><head>
+
+  <html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mediterranean Villa</title>
+    <title>Modern Building - Focus Theme</title>
     <meta name="description" content="Focus is a clean portfolio theme for Bootstrap.">
   
     <!-- Favicon -->
@@ -52,72 +53,44 @@
   
   <main id="main">
     <!-- Header -->
-    <div class="container py-5 py-lg-6">
-      <h1 class="display-4 mb-5 mb-md-6">Mediterranean Villa</h1>
-    </div>
-  
-    <!-- Project -->
-    <div class="bg-white text-dark pb-5">
-      <div class="container-xl py-2 px-0">
-        <div id="slideshow" class="carousel slide mt-n6 mx-xl-n4 mb-5" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item">
-              <img src="https://focus-theme.netlify.app/assets/img/villa-pool.jpg" class="d-block w-100" alt="First slide">
-            </div>
-            <div class="carousel-item active">
-              <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80" class="d-block w-100" alt="Third slide">
-            </div>
-          </div>
-          <button class="carousel-control-prev justify-content-start" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
-            <i class="material-icons icon-lg" aria-hidden="true">arrow_back_ios_new</i>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next justify-content-end" type="button" data-bs-target="#slideshow" data-bs-slide="next">
-            <i class="material-icons icon-lg" aria-hidden="true">arrow_forward_ios</i>
-            <span class="visually-hidden">Next</span>
-          </button>
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
-            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
+    <div class="container py-5 py-md-6">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1 class="display-3">Contact us</h1>
+          <div class="border border-2 border-light w-15 my-4"></div>
+          <p class="lead text-light mb-4">Ask us anything, or share your feedback.</p>
         </div>
       </div>
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-4">
-            <dl class="mt-1">
-              <dt class="fw-light">Client</dt>
-              <dd>Caleigh Jerde</dd>
-              <dt class="fw-light">Location</dt>
-              <dd>Cincinnati, United States</dd>
-              <dt class="fw-light">Years</dt>
-              <dd>2019 - 2020</dd>
-            </dl>
-          </div>
-          <div class="col-lg-8 col-xxl-7">
-            <p>The Mediterranean region has long been a source of inspiration for interior designers, and this villa is no exception. The design team made bold choices to capture the essence of the region while maintaining a modern aesthetic. The color palette was carefully selected to complement the architecture and natural surroundings, with warm earthy tones, bright accents, and pops of blue reminiscent of the sea.</p>
-            <p>The use of textures was another defining element of the design, with natural stone and wood surfaces used throughout the villa. Arched doorways and windows, decorative tiles, and wrought iron details added to the Mediterranean charm, while modern furnishings and sleek lighting fixtures kept the space feeling current and fresh.</p>
-            <p>The villa's layout was also carefully considered to create a flow that maximized the beautiful views and natural light. Large windows and doors opened up to the outdoor spaces, blurring the lines between indoors and out. The result is a luxurious yet inviting space that perfectly captures the Mediterranean lifestyle. Overall, the interior design choices were a beautiful balance of tradition and modernity, creating a space that feels both timeless and of-the-moment.</p>
-          </div>
-        </div>
+    </div>
   
-        <!-- Projects navigation -->
-        <div class="d-flex justify-content-between align-content-center lh-1">
-          <a href="project-6.html" data-bs-toggle="tooltip">
-            <i class="material-icons icon-2x mr-2" aria-hidden="true">arrow_back</i>
-            <span class="visually-hidden">Previous project</span>
-          </a>
-          <a href="index.html" data-bs-toggle="tooltip">
-            <i class="material-icons icon-2x">view_module</i>
-          </a>
-          <a href="project-2.html" data-bs-toggle="tooltip">
-            <i class="material-icons icon-2x ml-2" aria-hidden="true">arrow_forward</i>
-            <span class="visually-hidden">Next project</span>
-          </a>
+    <!-- Form -->
+    <div class="bg-white text-black">
+      <div class="container py-3">
+        <div class="bg-white mt-n5 mt-md-n6 px-3 px-md-0">
+          <div class="row justify-content-center py-4 py-lg-5">
+            <div class="col-md-10 col-lg-8">
+              <p>Fields marked with an <span class="text-secondary">*</span> are required.</p>
+              <form class="py-3">
+                <div class="mb-4">
+                  <label for="inputName" class="form-label">Name <span class="text-secondary">*</span></label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Enter your name" required="" fdprocessedid="s5g7ui">
+                </div>
+                <div class="mb-4">
+                  <label for="inputEmail" class="form-label">Email <span class="text-secondary">*</span></label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address" required="" fdprocessedid="2m5ykr">
+                </div>
+                <div class="mb-4">
+                  <label for="messageTetxarea" class="form-label">Message <span class="text-secondary">*</span></label>
+                  <textarea class="form-control" id="messageTetxarea" rows="9" placeholder="Enter your message" required=""></textarea>
+                </div>
+                <div class="mb-4 form-check">
+                  <input type="checkbox" class="form-check-input" id="inputCheck">
+                  <label class="form-check-label small" for="inputCheck">I agree with the <a href="#" class="link-underline">terms and conditions</a></label>
+                </div>
+                <button type="submit" class="btn btn-pill btn-primary" fdprocessedid="t92a3m">Submit</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,297 @@
+<!doctype html>
+  <html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
+    <title>Album example · Bootstrap</title>
+  
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/album/">
+  
+  
+  
+    <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  
+    <style>
+  
+    </style>
+  
+  
+  </head>
+  
+  
+  
+  <html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Architecture - Focus Theme</title>
+    <meta name="description" content="Focus is a clean portfolio theme for Bootstrap.">
+  
+    <!-- Favicon -->
+    <link rel="icon" href=" https://focus-theme.netlify.app/assets/img/favicon.png">
+  
+    <!-- Goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,600;1,400&amp;family=Playfair+Display:wght@400;600&amp;display=swap" rel="stylesheet">
+  
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href=" https://focus-theme.netlify.app/assets/css/style.css">
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+  
+  
+  
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+  
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+  
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .site-header {
+          background-color: rgba(0, 0, 0, .85);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          backdrop-filter: saturate(180%) blur(20px);
+      }
+  
+      .site-header a {
+          color: #727272;
+          transition: color .15s ease-in-out;
+      }
+  
+      .site-header a:hover {
+          color: #fff;
+          text-decoration: none;
+      }
+  
+    </style>
+  
+  
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <!-- JS -->
+    <script src=" https://focus-theme.netlify.app/assets/js/bootstrap.js" defer=""></script>
+    <script src=" https://focus-theme.netlify.app/assets/js/lightbox.js" defer=""></script>
+    <script src=" https://focus-theme.netlify.app/assets/js/scripts.js" defer=""></script>
+  </head>
+  
+  <body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+  <a href="#main" class="visually-hidden-focusable">Skip to main content</a>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" aria-label="Main">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-inline-flex text-uppercase">Focus <i class="material-icons ms-2" aria-hidden="true">donut_large</i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="material-icons icon-2x" aria-hidden="true">menu</i>
+        </button>
+        <div class="collapse navbar-collapse text-uppercase" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About US</a>
+            </li>
+            <li class="nav-item">
+              <a href="items.html" class="nav-link">Contractors</a>
+            </li>
+            <li class="nav-item">
+              <a href="Tour.html" class="nav-link">Tour</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main id="main">
+    <!-- Header -->
+    <div class="container py-5">
+      <div class="col-xxl-10">
+        <h1 class="display-1">Our Team</h1>
+        <div class="border border-6 border-light w-25 my-4">We are dedicated to professionalism, we value our customers first.</div>
+      </div>
+      <div class="col-lg-10 col-xxl-8">
+        <p class="font-serif lead mb-4 text-light"></p>
+        <a href="items.html" class="btn btn-primary">Gallery</a>
+      </div>
+    </div>
+  
+    <!-- Projects -->
+    
+    <!-- Testimonials -->
+    <div class="bg-white text-black">
+      <div class="container py-5 py-md-6">
+        <h2 class="text-center mb-5">Employees are saying...</h2>
+        <div class="row gy-4">
+          <div class="col-md">
+            <blockquote class="text-center">
+              <img src="https://focus-theme.netlify.app/assets/img/tim-schoch.jpg" class="avatar avatar-lg mb-3" alt="Tim Schoch">
+              <cite class="d-block h5 fst-normal mb-1">Tim Schoch</cite>
+              <span class="small text-muted text-uppercase">Designer</span>
+              <p class="quote text-muted mt-3 mb-0">Focus theme is great. It really saves me time and effort. Thank you so much for your help</p>
+            </blockquote>
+          </div>
+          <div class="col-md">
+            <blockquote class="text-center">
+              <img src="https://focus-theme.netlify.app/assets/img/olive-mathews.jpg" class="avatar avatar-lg mb-3" alt="Olive Mathews">
+              <cite class="d-block h5 fst-normal mb-1">Olive Mathews</cite>
+              <span class="small text-muted text-uppercase">Photographer</span>
+              <p class="quote text-muted mt-3 mb-0">Focus is great. I will refer everyone I know. The Service is worth much more than I paid. I'm loving it.</p>
+            </blockquote>
+          </div>
+          <div class="col-md">
+            <blockquote class="text-center">
+              <img src="https://focus-theme.netlify.app/assets/img/malan-alankara.jpg" class="avatar avatar-lg mb-3" alt="Malan Alankara">
+              <cite class="d-block h5 fst-normal mb-1">Malan Alankara</cite>
+              <span class="small text-muted text-uppercase">Contractor</span>
+              <p class="quote text-muted mt-3 mb-0">Not able to tell you how happy I am with Focus. It's exactly what I've been looking for.</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Accordion -->
+    <div class="container py-5 py-md-6">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xxl-8">
+          <h2 class="text-center mb-5">Frequently asked questions</h2>
+          <div class="accordion" id="accordionFaq">
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Where To Work?
+                </button>
+              </h3>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                 We have an office, but you can choose to work at home, with our 360 technology.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How to join the team?
+                </button>
+              </h3>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                  Fill in a form and your resume, go through with some interviews and you can join our amazing team!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Who should I apporach for help?
+                </button>
+              </h3>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                    You can contact hr @ <a href="tel:92962690">Sven</a>
+                </div>
+              </div>
+            </div>
+            <p>If you are a contractor trying to join us, please do a quick survey and check here:</p>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSed3ZtpMOPW34gblq7ELoBjNUFKjA64eUC9shHKMoywr-yqbA/viewform?embedded=true" width="640" height="1003" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <p class="lead">
+                Here are some of the benefits working with us
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">More Customers</li>
+              <li class="list-group-item">Innovative Design</li>
+              <li class="list-group-item">Supportive Community</li>
+              <li class="list-group-item">Working From Remote Location</li>
+              <li class="list-group-item">Safe and secure workplace</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  
+  <footer class="bg-light text-dark">
+    <div class="container py-5 py-md-6">
+      <div class="row justify-content-md-between">
+        <div class="col-4 col-md-2">
+          <h2 class="h6">About</h2>
+          <ul class="nav flex-column">
+            <li class="mb-1">
+              <a href="about.html" class="link-secondary">Team</a>
+            </li>
+            <li class="mb-1">
+              <a href="Career.html" class="link-secondary">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 col-md-2">
+          <h2 class="h6 mb-3">Services</h2>
+          <ul class="nav flex-column">
+            <li class="mb-1">
+              <a href="index.html" class="link-secondary">Home</a>
+            </li>
+            <li class="mb-1">
+              <a href="items.html" class="link-secondary">Gallery</a>
+            </li>
+            <li class="mb-1">
+              <a href="tour.html" class="link-secondary">Tour</a>
+            </li>
+            <li class="mb-1">
+              <a href="about.html" class="link-secondary">About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 col-md-2">
+          <h2 class="h6 mb-3">Social</h2>
+          <ul class="nav flex-column">
+            <li class="mb-1">
+              <a href="#" class="link-secondary">Twitter</a>
+            </li>
+            <li class="mb-1">
+              <a href="#" class="link-secondary">Instagram</a>
+            </li>
+            <li class="mb-1">
+              <a href="#" class="link-secondary">Dribbble</a>
+            </li>
+            <li class="mb-1">
+              <a href="#" class="link-secondary">Facebook</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4 mt-4 mt-md-0">
+          <h2 class="h6 mb-3">Company</h2>
+          <p class="text-secondary">We Promise To Only Provide The Best Quality Service From A Host Of  Contractors</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <div role="dialog" aria-hidden="true" class="tobii tobii--theme-default"><button class="tobii__btn tobii__btn--previous" type="button" aria-label="Previous image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path stroke="none" d="M0 0h24v24H0z"></path><polyline points="15 6 9 12 15 18"></polyline></svg></button><button class="tobii__btn tobii__btn--next" type="button" aria-label="Next image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path stroke="none" d="M0 0h24v24H0z"></path><polyline points="9 6 15 12 9 18"></polyline></svg></button><button class="tobii__btn tobii__btn--close" type="button" aria-label="Close lightbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path stroke="none" d="M0 0h24v24H0z"></path><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button><div class="tobii__counter"></div></div></body></html>
